@@ -1,28 +1,25 @@
-# Archetype Template
+# Archetypal Vue App Template
 
-This repo serves as a starting template to be used for other repos.
+This repo serves as a starting template to be used for Vue web applications.
 
-It incorporates sensible defaults and best practices that apply to nearly any repo, as well as more specific practices for particular languages / frameworks.
+It incorporates sensible defaults and best practices that apply to nearly any repo.
 
 To use this repo as a template:
 
 - [ ] Remove files which do not apply to your project
-  - [ ] For Ruby projects:
     ```shell
-    rm .nvmrc .gitignore-node package.json yarn.lock
-    mv .gitignore-ruby .gitignore
-    ```
-  - [ ] For JavaScript / Node.js projects:
-    ```shell
-    rm .ruby-version .gitignore-ruby Gemfile
-    ```
-- [ ] Replace this [README.md](README.md) file with the contents from [README-TEMPLATE.md](README-TEMPLATE.md)
-    ```shell
-    mv README-TEMPLATE.md README.md
+    rm -rf ./files-ruby
+    mv ./files-js/* .
+    rmdir ./files-js
     ```
 - [ ] Replace all template strings (pattern: `{{LABEL}}`) with actual values
     ```shell
     grep '{{.*}}' *
+    ```
+- [ ] Replace placeholders in [README-TEMPLATE.md](README-TEMPLATE.md) with useful content for your project. (Format: `[INCLUDE: ...]`)
+- [ ] Replace this [README.md](README.md) file with the contents from [README-TEMPLATE.md](README-TEMPLATE.md)
+    ```shell
+    mv README-TEMPLATE.md README.md
     ```
 
 <!-- TODO: Use npx with a customizeable setup script (see npm enquirer) to automate the above tasks -->
@@ -49,12 +46,3 @@ To use this repo as a template:
 - [.nvmrc](.nvmrc)
 - [package.json](package.json)
 - [yarn.lock](yarn.lock)
-
-## Ruby Files
-
-- [.gitignore-ruby](.gitignore-ruby)
-  ```shell
-  mv .gitignore-ruby .gitignore
-  ```
-- [.ruby-version](.ruby-version)
-- [Gemfile](Gemfile)
