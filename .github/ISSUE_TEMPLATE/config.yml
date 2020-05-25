@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Project Team Chat
+    url: {{CHAT_APP_URL}}
+    about: Please ask and answer questions in the team chat.
