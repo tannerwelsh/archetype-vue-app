@@ -29,16 +29,6 @@ Template used for archetypal repos.
 
 ## Usage
 
-[FOR PACKAGES/LIBRARIES: SHOW API EXAMPLES]
-
-```js
-import myPackage from 'my-package'
-
-myPackage.doTheThing((x) => {
-  x.doMoreThings()
-})
-```
-
 [FOR APPLICATIONS: SHOW LAUNCH / USER FLOW / UI EXAMPLES]
 
 ```shell
@@ -51,7 +41,7 @@ $ yarn start
 
 [INCLUDE: FRAMEWORKS & MAIN LIBRARIES USED, ALSO PHILOSOPHICAL / PARADIGM INFLUENCES]
 
-- **[Express.js](https://expressjs.com)**
+- **[Vue.js](https://vuejs.org)**
 
 ## Contributing
 
@@ -64,6 +54,10 @@ For our code of conduct and more details on contributing to this project, please
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+
+Releases are generated automatically using [Semantic Release](https://github.com/semantic-release/semantic-release).
+
+[INCLUDE: INSTRUCTIONS FOR CONFIGURING / USING SEMANTIC RELEASE]
 
 ## Authors
 
