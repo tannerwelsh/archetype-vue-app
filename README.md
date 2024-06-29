@@ -6,12 +6,6 @@ It incorporates sensible defaults and best practices that apply to nearly any re
 
 To use this repo as a template:
 
-- [ ] Remove files which do not apply to your project
-    ```shell
-    rm -rf ./files-ruby
-    mv ./files-js/* .
-    rmdir ./files-js
-    ```
 - [ ] Replace all template strings (pattern: `{{LABEL}}`) with actual values
     ```shell
     grep '{{.*}}' *
@@ -39,10 +33,7 @@ To use this repo as a template:
 
 ## JavaScript / Node.js Files
 
-- [.gitignore-node](.gitignore-node)
-  ```shell
-  mv .gitignore-node .gitignore
-  ```
+- [.gitignore](.gitignore)
 - [.nvmrc](.nvmrc)
 - [package.json](package.json)
 - [yarn.lock](yarn.lock)
